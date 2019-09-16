@@ -4,6 +4,7 @@ body {
 }
 
 *{
+  margin: 0;
   border: 0;
   padding: 0;
   box-sizing: border-box;
@@ -34,20 +35,23 @@ main:after {
   clear: both;
 }
 
+h2 {
+  margin-bottom: 10px;
+}
 .primacolonna {
   float: left;
   width: 20%;
   background-color: brown;
-  padding: 2px;
+  padding: 8px;
 }
 
 .secondacolonna {
   float: left;
-  width: 58%;
+  width: 54%;
   background-color: green;
-  margin-right: 1%;
-  margin-left: 1%;
-  padding: 2px;
+  margin-right: 3%;
+  margin-left: 3%;
+  padding: 8px;
 }
 
 .terzacolonna{
@@ -57,8 +61,8 @@ main:after {
 
 .terzacolonna div {
   background-color: yellow;
-  margin-bottom: 10px;
-  padding: 2px;
+  margin-bottom: 20px;
+  padding: 8px;
 }
 
 .footer {
